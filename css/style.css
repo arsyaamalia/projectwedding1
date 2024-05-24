@@ -16,6 +16,17 @@ body{
     box-sizing: border-box;
 }
 
+div{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 img{
     width: 100%;
 }
@@ -90,7 +101,7 @@ container{
     padding: 8px 0px;
 }
 
-.nav-icon img{
+.nav-icon img, .invitation img, p.instagram img{
     width: 20px;
 }
 
@@ -121,7 +132,40 @@ container{
     display:inline-block;
 }
 
-.section1-title h2{
+.section1-title img{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.section1-title img.star1{
+    left: 30.03%;
+    right: 62.85%;
+    top: 3.24%;
+    bottom: 96.37%;
+}
+
+.section1-title img.star2{
+    left: 68.23%;
+    right: 24.65%;
+    top: 3.24%;
+    bottom: 96.37%;
+}
+
+.section1-title img.star3{
+    left: 15.62%;
+    right: 77.26%;
+    top: 4.36%;
+    bottom: 95.26%;
+}
+
+.section1-title img.star4{
+    left: 73.78%;
+    right: 19.1%;
+    top: 4.35%;
+    bottom: 95.27%;
 }
 
 .section2{
@@ -133,6 +177,44 @@ container{
     background-position: center;
 }
 
+.section3{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/image/bg-brownshaped.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.section5{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/image/bg-blueshaped.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.timesection{
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.timesection:first-child{
+    margin-left: 0;
+}
+
+.section6{
+    width: 100%;
+    background-color: #AC936B;
+}
+
+.section8{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/image/momen_bahagia.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 @media (max-width: 860px) {
     div.fixed-content{
       display: none;
@@ -141,15 +223,4 @@ container{
     div.scrolled-content{
         width: 100%;
     }
-}
-
-div{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
 }
