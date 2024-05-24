@@ -215,6 +215,76 @@ container{
     background-size: 100%;
 }
 
+.section9{
+    width: 100%;
+    background-color: #AC936B;
+}
+
+.xzoom-thumbs a{
+    text-decoration: none;
+}
+
+.xzoom-thumbs img{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #ccc;
+}
+
+.xzoom-preview{
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.2);
+}
+
+.active{
+    border: 1px solid #4aaad2;
+    box-shadow: 0 0 3px 0 #4aaad2;
+}
+
+.line{
+    width: 174px; 
+    height: 0px; 
+    border: 1px white solid
+}
+
+.img-display{
+    overflow: hidden;
+}
+
+.img-showcase{
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.img-showcase img{
+    min-width: 100%;
+}
+
+.img-select{
+    display: flex;
+}
+
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3),
+.img-item:nth-child(4),
+.img-item:nth-child(5){
+    margin-right: 20px;
+}
+
+.img-item:hover{
+    opacity: 0.8;
+}
+
+.section11{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/image/photo_last.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
 @media (max-width: 860px) {
     div.fixed-content{
       display: none;
