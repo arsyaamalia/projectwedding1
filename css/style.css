@@ -121,20 +121,48 @@ container{
     text-align: center;
     font-weight: 300;
     font-size: 18px;
-    padding: 25px 0;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
 }
 
-.line {
-    width: 41px;
-    height: 0;
-    border: 1px solid #fff;
-    margin: 8px;
-    display:inline-block;
+.section1-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section1-header hr{
+    width: 25%;
+    background-color: #FFFFFF; 
+    color: #FFFFFF;
+    height: 2px;
+}
+
+.section1-header p{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.section1-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section1-title h2{
+    font-size: 39.29px;
+}
+
+.section1-title h3{
+    font-size: 28.57px;
 }
 
 .section1-title img{
-    width: 28px;
-    height: 28px;
+    width: 7%;
     position: absolute;
     gap: 0px;
     opacity: 0px;
@@ -142,30 +170,83 @@ container{
 
 .section1-title img.star1{
     left: 30.03%;
-    right: 62.85%;
-    top: 3.24%;
-    bottom: 96.37%;
+    top: 37%;
 }
 
 .section1-title img.star2{
-    left: 68.23%;
     right: 24.65%;
-    top: 3.24%;
-    bottom: 96.37%;
+    top: 37%;
 }
 
 .section1-title img.star3{
     left: 15.62%;
-    right: 77.26%;
-    top: 4.36%;
-    bottom: 95.26%;
+    top: 50%;
 }
 
 .section1-title img.star4{
     left: 73.78%;
-    right: 19.1%;
-    top: 4.35%;
-    bottom: 95.27%;
+    top: 50%;
+}
+
+.section1-invitation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.section1-invitation p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #396793;
+}
+
+.section1-invitation h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #396793;
+}
+
+.section1-invitation hr{
+    width: 50%;
+    background-color: #FFFFFF; 
+    color: #FFFFFF;
+    height: 3px;
+    margin-top: 5px;
+}
+
+.section1-invitation a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section1-invitation .invitation{
+    background-color: #396793;
+    padding: 15px;
+    width: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.invitation-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invitation img{
+    width: 30px;
+}
+
+.invitation h5{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    margin: 0;
 }
 
 .section2{
