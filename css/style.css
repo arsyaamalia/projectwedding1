@@ -119,9 +119,7 @@ container{
     background-size: cover;
     background-position: center;
     text-align: center;
-    font-weight: 300;
-    font-size: 18px;
-    padding: 20px;
+    padding: 15px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     position: relative;
@@ -135,7 +133,7 @@ container{
 }
 
 .section1-header hr{
-    width: 25%;
+    width: 22%;
     background-color: #FFFFFF; 
     color: #FFFFFF;
     height: 2px;
@@ -243,6 +241,7 @@ container{
 
 .invitation h5{
     color: #fff;
+    font-size: 14.29px;
     font-weight: 600;
     letter-spacing: 1px;
     padding-left: 10px;
@@ -256,6 +255,24 @@ container{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.section2 p{
+    font-size: 23.57px;
+    margin-top: 20px;
+}
+
+.section2 h2{
+    font-size: 45.23px;
+    text-align: center;
+}
+.section2 p.date{
+    font-size: 18.57px;
+    margin-top: 10px;
 }
 
 .section3{
@@ -264,6 +281,21 @@ container{
     background-image: url('/image/bg-brownshaped.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.section3 img{
+    width: 19%;
+}
+
+.section3 h2{
+    font-size: 14.29px;
+    margin: 15px 0;
+}
+
+.section3 p{
+    font-size: 11.43px;
 }
 
 .section5{
