@@ -49,6 +49,14 @@ img{
     color: #fff;
 }
 
+.font-color-blue{
+    color: #396793;
+}
+
+.font-color-yellow{
+    color: #F8D18A;
+}
+
 container{
     background-color: rgb(255, 198, 127);
 }
@@ -196,13 +204,11 @@ container{
 .section1-invitation p{
     font-size: 15px;
     font-weight: 400;
-    color: #396793;
 }
 
 .section1-invitation h4{
     font-size: 20px;
     font-weight: 500;
-    color: #396793;
 }
 
 .section1-invitation hr{
@@ -277,10 +283,9 @@ container{
 
 .section3{
     width: 100%;
-    height: 100vh;
     background-image: url('/image/bg-brownshaped.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     padding: 25px 15px;
     text-align: center;
 }
@@ -298,12 +303,118 @@ container{
     font-size: 11.43px;
 }
 
+.section4{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.section4 p.bismillah{
+    font-size: 11.43px;
+    padding-bottom: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.section4 img.groom-vector{
+    width: 29%;
+    position: absolute;
+    left: 54%;
+    margin-top: 21px;
+}
+
+.groom{
+    text-align: left;
+}
+
+.groom-profile{
+    margin-top: 50px;
+    position: relative;
+    text-align: left;
+}
+
+.groom-profile h2{
+    position: absolute;
+    bottom: 0;
+    margin-right: 15px;
+    font-size: 50px;
+    right: 0;
+}
+
+.groom-profile img.groom-photo{
+    width: 58%;
+    margin-left: 15px;
+}
+
+.groom-profile img.flowers-border{
+    position: absolute;
+    width: 55%;
+    top: 35.5%;
+    left: 0;
+}
+
+.groom h3, .groom p{
+    margin-left: 15px;
+}
+
+.section4 img.bride-vector{
+    width: 29%;
+    position: absolute;
+    right: 54%;
+    margin-top: 21px;
+}
+
+.bride{
+    text-align: right;
+}
+
+.bride-profile{
+    margin-top: 50px;
+    position: relative;
+    text-align: right;
+}
+
+.bride-profile h2{
+    position: absolute;
+    bottom: 0;
+    margin-left: 15px;
+    font-size: 50px;
+    left: 0;
+}
+
+.bride-profile img.bride-photo{
+    width: 58%;
+    margin-right: 15px;
+}
+
+.bride-profile img.flowers-border{
+    position: absolute;
+    width: 55%;
+    top: 35.5%;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.section4 h3{
+    margin-top: 37px;
+    font-size: 27.14;
+}
+
+.section4 .groom p, .section4 .bride p{
+    font-size: 17.14px;
+}
+
+.bride h3, .bride p{
+    margin-right: 15px;
+}
+
 .section5{
     width: 100%;
     height: 100vh;
     background-image: url('/image/bg-blueshaped.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    padding: 15px;
 }
 
 .timesection{
