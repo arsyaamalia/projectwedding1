@@ -408,6 +408,14 @@ container{
     margin-right: 15px;
 }
 
+.section4 p.names{
+    margin-bottom: 10px;
+}
+
+.groom a, .bride a{
+    text-decoration: none;
+}
+
 .section5{
     width: 100%;
     height: 100vh;
@@ -415,6 +423,7 @@ container{
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 15px;
+    text-align: center;
 }
 
 .timesection{
