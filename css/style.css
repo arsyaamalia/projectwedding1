@@ -418,12 +418,24 @@ container{
 
 .section5{
     width: 100%;
-    height: 100vh;
     background-image: url('/image/bg-blueshaped.png');
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 15px;
+    background-size: 100% 100%;
+    padding: 35px 15px 15px 15px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section5 h2{
+    font-size: 35.71px;
+    font-weight: 500;
+    margin: 18px 0;
+}
+
+.section5 p{
+    font-size: 11.43px;
 }
 
 .timesection{
@@ -434,6 +446,12 @@ container{
 .timesection:first-child{
     margin-left: 0;
 }
+
+.value, .timelabel{
+    font-size: 17.14px;
+}
+
+
 
 .section6{
     width: 100%;
