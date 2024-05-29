@@ -451,11 +451,38 @@ container{
     font-size: 17.14px;
 }
 
-
-
 .section6{
     width: 100%;
     background-color: #AC936B;
+    text-align: center;
+    padding: 25px 30px 0 30px;
+    color: #F4E1BE;
+}
+
+.section6 p{
+    font-size: 14.29px;
+    margin: 0;
+}
+
+.section6 p.desc{
+    font-size: 11.43px;
+    margin: 0;
+}
+
+.section6 img{
+    margin: 25px 0;
+}
+
+.section6 h2{
+    font-size: 42.86px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -14%;
+}
+
+.section6 h2.resepsi{
+    margin-top: 2%;
 }
 
 .section8{
@@ -521,7 +548,7 @@ container{
 .img-item:nth-child(3),
 .img-item:nth-child(4),
 .img-item:nth-child(5){
-    margin-right: 20px;
+    margin-right: 2%;
 }
 
 .img-item:hover{
