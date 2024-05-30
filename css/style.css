@@ -485,6 +485,35 @@ container{
     margin-top: 2%;
 }
 
+.section7{
+    text-align: center;
+    padding: 50px 30px;
+    position: relative;
+}
+
+.section7 h2{
+    font-size: 42.86px;
+}
+
+.section7 div.photo{
+    width: 56%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.section7 div.bird{
+    width: 30%;
+    position: absolute;
+    left: 55%;
+    top: 120px;
+    z-index: -10;
+}
+
+.section7 h2.year{
+    text-align: justify;
+    font-size: 42.86px;
+}
+
 .section8{
     width: 100%;
     height: 100vh;
