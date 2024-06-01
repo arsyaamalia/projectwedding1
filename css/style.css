@@ -487,7 +487,7 @@ container{
 
 .section7{
     text-align: center;
-    padding: 50px 30px;
+    padding: 50px 0px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -517,7 +517,7 @@ container{
 }
 
 .section7 h2.year{
-    margin-left: -115px;
+    margin-left: -145px;
     font-size: 42.86px;
 }
 
@@ -528,6 +528,7 @@ container{
 .section7 .stars{
     width: 100%;
     text-align: right;
+    margin-right: 30px;
 }
 
 .section7 .stars img{
@@ -626,37 +627,46 @@ container{
 .section9 .slide-gallery{
     width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 }
 
 .section9 .slide-gallery h3{
     font-size: 17.86px;
     font-weight: 400;
     text-wrap: nowrap;
+    margin: 0;
 }
 
 .section9 .slide-gallery .line{
-    width: 100%; 
-    height: 0px; 
+    width: 100%;
+    height: 0px;
     border: 1px white solid;
-    margin: 0 0 0 10px;
+    margin: 0 10px;
 }
 
 .section9 .slide-gallery .left-right{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .section9 .slide-gallery .slide-left, .section9 .slide-gallery .slide-right{
-    margin: 0 0 0 10px;
-    padding: 0 8px;
+    width: 30px;
+    padding: 24%;
     background-color: #F8D18A;
     border-radius: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.section9 .space{
+    width: 8px;
+}
+
+.section9 .slide-gallery .slide-left img{
+    transform: scaleX(-1);
 }
 
 .section9 .slide-gallery a{
