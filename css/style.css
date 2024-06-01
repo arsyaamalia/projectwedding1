@@ -909,8 +909,29 @@ form button{
     margin: 25px 0;
 }
 
+.copyright{
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 11.43px;
+    font-weight: 500;
+}
+
+.copyright p{
+    margin: 0;
+}
+
 .copyright img{
     width: 2%;
+}
+
+.copyright span{
+    font-weight: 700;
+    color: #AC936B;
 }
 
 @media (max-width: 860px) {
