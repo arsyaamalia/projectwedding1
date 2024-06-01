@@ -489,6 +489,10 @@ container{
     text-align: center;
     padding: 50px 30px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section7 h2{
@@ -498,7 +502,10 @@ container{
 .section7 div.photo{
     width: 56%;
     margin: 50px auto;
-    text-align: center;
+}
+
+.section7 div.photo{
+    margin-bottom: 10px;
 }
 
 .section7 div.bird{
@@ -510,21 +517,53 @@ container{
 }
 
 .section7 h2.year{
-    text-align: justify;
+    margin-left: -115px;
     font-size: 42.86px;
+}
+
+.section7 h3{
+    font-size: 17.14px;
+}
+
+.section7 .stars{
+    width: 100%;
+    text-align: right;
+}
+
+.section7 .stars img{
+    width: 19%;
 }
 
 .section8{
     width: 100%;
-    height: 100vh;
-    background-image: url('/image/momen_bahagia.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section8 h2{
+    position: absolute;
+    font-size: 35.71px;
 }
 
 .section9{
     width: 100%;
     background-color: #AC936B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 25px;
+}
+
+.section9 .love-ornaments{
+    width: 5%;
+}
+
+.section9 h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .xzoom-thumbs a{
@@ -548,14 +587,10 @@ container{
     box-shadow: 0 0 3px 0 #4aaad2;
 }
 
-.line{
-    width: 174px; 
-    height: 0px; 
-    border: 1px white solid
-}
-
 .img-display{
     overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 2%;
 }
 
 .img-showcase{
@@ -584,12 +619,298 @@ container{
     opacity: 0.8;
 }
 
+.product-imgs{
+    margin-bottom: 25px;
+}
+
+.section9 .slide-gallery{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section9 .slide-gallery h3{
+    font-size: 17.86px;
+    font-weight: 400;
+    text-wrap: nowrap;
+}
+
+.section9 .slide-gallery .line{
+    width: 100%; 
+    height: 0px; 
+    border: 1px white solid;
+    margin: 0 0 0 10px;
+}
+
+.section9 .slide-gallery .left-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section9 .slide-gallery .slide-left, .section9 .slide-gallery .slide-right{
+    margin: 0 0 0 10px;
+    padding: 0 8px;
+    background-color: #F8D18A;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section9 .slide-gallery a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.section10{
+    padding: 25px 0;
+    text-align: center;
+    position: relative;
+}
+
+.section10 .vector{
+    width: 29%;
+    position: absolute;
+    z-index: -1;
+}
+
+.section10 .konfirmasi .vector{
+    left: 68%;
+    top: 4.4%;
+}
+
+.section10 .kirim .vector{
+    left: 48%;
+    top: 9.9%;
+}
+
+.section10 .konfirmasi-kirim{
+    margin: 41px 0;
+}
+
+.section10 .branch_ornaments{
+    width: 22%;
+    position: absolute;
+    left: 5%;
+    margin-top: -41px;
+}
+
+.section10 .surat_ornaments{
+    width: 31%;
+    position: absolute;
+    left: 11%;
+    margin-top: -41px;
+}
+
+.section10 .rectangle-photo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 66px;
+}
+
+.section10 .photo-konfirmasi-kirim{
+    width: 58%;
+}
+
+.section10 h3{
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.section10 .rectangle-relative{
+    width: 49%;
+}
+
+.section10 .rectangle-blue{
+    background-color: #396793;
+    width: 49%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.section10 .konfirmasi .rectangle-blue{
+    margin-left: 25px;
+    border-radius: 0 100px 100px 0;
+}
+
+.section10 .kirim .rectangle-blue{
+    margin-right: 25px;
+    border-radius: 100px 0 0 100px;
+    right: 0;
+}
+
+.section10 .wishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.section10 h2{
+    font-size: 42.86px;
+    margin-bottom: 50px;
+}
+
+.section10 .wish{
+    background-color: #AC936B;
+    width: 83%;
+    margin-bottom: 25px;
+    padding: 2.6% 0;
+    border-radius: 200px 200px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section10 .wish-border{
+    border: 2px solid #F4E1BE;
+    width: 94%;
+    border-radius: 200px 200px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section10 .ring{
+    width: 25%;
+    margin: 40px 0 30px 0;
+}
+
+.section10 .tamu-undangan{
+    width: 89%;
+}
+
+.section10 h5{
+    font-weight: 500;
+    font-size: 17.14px;
+    margin: 0;
+}
+
+.section10 hr{
+    border: none;
+    border-top: 2px solid #FFFFFF;background-color: #4aaad2;
+    margin: 7px 0;
+}
+
+.section10 .location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12.86px;
+    font-weight: 400;
+}
+
+.section10 .location img{
+    width: 4%;
+    margin-right: 7px;
+}
+
+.section10 p{
+    font-size: 11.43px;
+    font-weight: 300;
+}
+
+.section10 .bird-letter-ornaments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section10 .bird-letter-ornaments img{
+    width: 33%;
+}
+
+.section10 .bird-letter-ornaments img.bird2{
+    transform: scaleX(-1);
+}
+
+.section10 .form-ucapan{
+    width: 83%;
+    text-align: center;
+}
+
+.section10 h4{
+    margin: 35px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea, form button{
+    width: 100%;
+    background-color: #AC936B;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 15.71px;
+    font-weight: 500;
+    outline: none;
+}
+
+form input{
+    height: 55px;
+}
+
+form textarea{
+    height: 140px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+  
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color: white;
+}
+
+form button{
+    height: 60px;
+    background-color: #396793;
+    margin-top: 15px;
+    font-size: 17.86px;
+    font-weight: 600;
+}
+
 .section11{
     width: 100%;
-    height: 100vh;
-    background-image: url('/image/photo_last.png');
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section11-content{
+    padding: 25px 0;
+    font-size: 12.86px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.section11-content h6{
+    font-size: 14.29px;
+    margin: 25px 0;
+}
+
+.copyright img{
+    width: 2%;
 }
 
 @media (max-width: 860px) {
