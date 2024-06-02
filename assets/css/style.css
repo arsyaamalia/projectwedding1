@@ -871,7 +871,7 @@ form input, form textarea, form button{
     font-size: 15.71px;
     font-weight: 500;
     outline: none;
-    border-radius: none;
+    border-radius: 0;
 }
 
 form input{
@@ -880,7 +880,7 @@ form input{
 
 form textarea{
     height: 140px;
-    border-radius: none;
+    border-radius: 0;
 }
 
 ::placeholder {
