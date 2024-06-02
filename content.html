@@ -10,6 +10,7 @@
     <title>Rayfan & Clarissa</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <container>
@@ -95,10 +96,12 @@
             </section>
             <section class="section6 font-color-white">
                 <p class="desc font-color-white">Dengan penuh rasa hormat kami mengharapkan kehadiran Bapak/Ibu/Saudara/i sekalian pada Acara Pernikahan Kami yang Insya Allah akan dilaksanakan pada :</p>
-                <div class="photo-location">
-                    <img src="/image/photo_location.png" alt="photo-location">
+                <div class="section6-transition">
+                    <div class="photo-location">
+                        <img src="/image/photo_location.png" alt="photo-location">
+                    </div>
+                    <h2 class="akad font-avenue-dream font-color-white">AKAD NIKAH</h2>
                 </div>
-                <h2 class="akad font-avenue-dream font-color-white">AKAD NIKAH</h2>
                 <p>Minggu, 24 April 2024 — Pukul 12:00 WITA — Selesai</p>
                 <p class="font-color-white">Bertempat di :</p>
                 <p>Ballroom Golden Lily A</p>
@@ -110,9 +113,11 @@
                 <p class="font-color-white">Bertempat di :</p>
                 <p>Ballroom Golden Lily A</p>
                 <p>Hotel Four Points by Sheraton Makassar</p>
-                <h2 class="resepsi font-avenue-dream font-color-white">ACARA RESEPSI</h2>
-                <div class="photo-location">
-                    <img src="/image/photo_location2.png" alt="photo-location">
+                <div class="section6-transition">
+                    <h2 class="resepsi font-avenue-dream font-color-white">ACARA RESEPSI</h2>
+                    <div class="photo-location">
+                        <img src="/image/photo_location2.png" alt="photo-location">
+                    </div>
                 </div>
             </section>
             <div class="divider-section">
@@ -143,7 +148,7 @@
                 <h2 class="font-avenue-dream">the Frames of 
                     <br>Our Moment and Memories
                 </h2>
-                <div class = "product-imgs">
+                <div class="product-imgs">
                     <div class = "img-display">
                       <div class = "img-showcase">
                         <img src = "/image/moment1.png" alt = "moment1">
@@ -313,5 +318,26 @@
     </container>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        ScrollReveal({ 
+            reset: true, 
+            distance: '30px', 
+            duration: 2500,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('h1', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section2 h2, .section2 p', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section3 img, .section3 h2, .section3 p', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section4 p, .section4 img.groom-vector, .section4 img.bride-vector, .groom, .bride', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section5 .countdown, .section5 h2, .section5 p', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section6-transition, .section6 .savethedate, .section6 p', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section7 h2, .section7 .bird, .section7 .photo, .section7 h3, .section7 .stars', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section8 h2', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section9 .love-ornaments, .section9 h2, .section9 .product-imgs, .section9 .slide-gallery', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section10 .konfirmasi, .section10 .kirim, .section10 h2, .section10 .wish, .section10 .form-ucapan', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section11 p, .section11 h6, .section11 p', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.copyright p', { delay: 50, origin:'bottom' });
+    </script>
 </body>
 </html>
