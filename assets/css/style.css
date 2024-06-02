@@ -680,6 +680,18 @@ container{
     position: relative;
 }
 
+.popup-konfirmasi{
+    width: 100%;
+}
+
+.popup-konfirmasi .exit-button{
+    width: 4%;
+}
+
+.popup-konfirmasi .surat-ornaments{
+    width: 21%;
+}
+
 .section10 .vector{
     width: 29%;
     position: absolute;
@@ -855,13 +867,13 @@ container{
     margin: 35px 0;
 }
 
-form{
+.section10 form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-form input, form textarea, form button{
+.section10 form input, .section10 form textarea, .section10 form button{
     width: 100%;
     background-color: #AC936B;
     border: none;
@@ -874,11 +886,11 @@ form input, form textarea, form button{
     border-radius: 0;
 }
 
-form input{
+.section10 form input{
     height: 55px;
 }
 
-form textarea{
+.section10 form textarea{
     height: 140px;
     border-radius: 0;
 }
@@ -892,7 +904,7 @@ form textarea{
     color: white;
 }
 
-form button{
+.section10 form button{
     height: 60px;
     background-color: #396793;
     margin-top: 15px;
