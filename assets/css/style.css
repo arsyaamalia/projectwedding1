@@ -64,7 +64,7 @@ container{
 .fixed-content{
     width: 70%;
     height: 100vh;
-    background-image: url('../images/foto_prewedd.png');
+    background-image: url('../img/foto_prewedd.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -122,7 +122,7 @@ container{
 .section1{
     width: 100%;
     height: 100vh;
-    background-image: url('../images/bg-theweddingof.png');
+    background-image: url('../img/bg-theweddingof.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -257,7 +257,7 @@ container{
 .section2{
     width: 100%;
     height: 100vh;
-    background-image: url('../images/bg-ourweddingday.png');
+    background-image: url('../img/bg-ourweddingday.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -283,7 +283,7 @@ container{
 
 .section3{
     width: 100%;
-    background-image: url('../images/bg-brownshaped.png');
+    background-image: url('../img/bg-brownshaped.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25px 15px;
@@ -418,7 +418,7 @@ container{
 
 .section5{
     width: 100%;
-    background-image: url('../images/bg-blueshaped.png');
+    background-image: url('../img/bg-blueshaped.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 35px 15px 15px 15px;
