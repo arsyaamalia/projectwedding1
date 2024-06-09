@@ -685,17 +685,16 @@ container{
 }
 
 .popup{
-    z-index: 99999999999999;
+    z-index: 999999;
     position: fixed;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    width: 100%;
+    width: 30%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
 }
 
 .popup{
@@ -1215,6 +1214,10 @@ container{
     }
 
     div.scrolled-content{
+        width: 100%;
+    }
+
+    .popup{
         width: 100%;
     }
 }
