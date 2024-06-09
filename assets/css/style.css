@@ -536,19 +536,86 @@ container{
 }
 
 .section7 div.photo{
-    width: 56%;
+    position: relative;
     margin: 50px auto;
-}
-
-.section7 div.photo{
     margin-bottom: 10px;
 }
+
+.section7 div.border-love-journey{
+    width: 220px;
+}
+
+.slider-frame{
+    overflow: hidden;
+    width: 220px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    z-index: -9;
+}
+
+@keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:220px;}
+    30% {left:220px;}
+    40% {left: 440px;}
+    50% {left: 440px;}
+    60% {left: 220px;}
+    70% {left: 220px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:220px;}
+    30% {left:220px;}
+    40% {left: 440px;}
+    50% {left: 440px;}
+    60% {left: 220px;}
+    70% {left: 220px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+.slide-images{
+    width: 660px;
+    margin: 0 0 0 -440px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container{
+    width: 220px;
+    position: relative;
+    float: left;
+}
+
+/* .section7 img.photo-love-journey{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: -1;
+} */
 
 .section7 div.bird{
     width: 30%;
     position: absolute;
     left: 55%;
-    top: 120px;
+    top: 100%;
     z-index: -10;
 }
 
@@ -577,6 +644,7 @@ container{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .section8 h2{
@@ -773,6 +841,7 @@ container{
 
 .popup-konfirmasi .exit-button, .popup-kirim .exit-button{
     width: 4%;
+    cursor: pointer;
 }
 
 .popup-section, .popup-section1, .popup-section2, .popup-footer{

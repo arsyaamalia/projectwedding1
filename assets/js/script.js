@@ -90,19 +90,17 @@ const musicPlay = document.querySelector(".music-on");
 const musicStop = document.querySelector(".music-mute");
 const musicAuto = document.querySelector("#musik");
 
-musicAuto.play();
+// musicAuto.play();
 musicAuto.loop = true;
 
 function musicMute() {
     musik.muted = true;
-    console.log("berhasil mute music");
     musicPlay.style.display = "none";
     musicStop.style.display = "flex";
 }
 
 function musicOn() {
     musik.muted = false;
-    console.log("berhasil play music");
     musicStop.style.display = "none";
     musicPlay.style.display = "flex";
 }
