@@ -218,7 +218,7 @@
                         <h5 class="font-avenue-dream">Rayfan & Clarissa</h5>
                         <div class="header-title">
                             <p>Konfirmasi Kehadiranmu</p>
-                            <div class="exit-button">
+                            <div class="exit-button" onclick="btnExit()">
                                 <img src="assets/icons/exit.png" alt="exit">
                             </div>
                         </div>
@@ -257,28 +257,29 @@
                 </div>
                 <div class="popup-kirim">
                     <div class="popup-header">
-                        <h2>Kirim Hadiah</h2>
+                        <h2 class="font-avenue-dream font-color-blue">Kirim Hadiah</h2>
+                        <div class="exit-button" onclick="btnExit()">
+                            <img src="assets/icons/exit.png" alt="exit">
+                        </div>
                     </div>
                     <div class="popup-section">
-                        <p>Kamu bisa kirim kado ke alamat yang tertera di bawah ini :</p>
+                        <p class="font-color-brown">Kamu bisa kirim kado ke alamat yang tertera di bawah ini :</p>
                         <div class="address">
                             <div class="icon-address">
-                                <img src="assets/icons/location.png" alt="location">
+                                <img src="assets/icons/location-blue.png" alt="location">
                             </div>
-                            <p>Perumahan Citra Land blok A2, No. 4, Tamalanrea, Makassar, Sulawesi Selatan 90121</p>
+                            <p class="font-color-blue">Perumahan Citra Land blok A2, No. 4, Tamalanrea, Makassar, Sulawesi Selatan 90121</p>
                         </div>
-                        <p>Atau kamu bisa transfer uang ke rekening di bawah ini :</p>
+                        <p class="font-color-brown">Atau kamu bisa transfer uang ke rekening di bawah ini :</p>
                         <div class="transfer">
-                            <p>5432 4812 3456 7888</p>
-                            <p>RAYFANSAH MALIK R</p>
-                            <img src="assets/img/button-copy-rek.png" alt="button-copy-rek">
+                            <div class="copyrek"><a href=""><img src="assets/img/button-copy-rek.png" alt="button-copy-rek"></a></div>
                             <img src="assets/img/atm.png" alt="atm">
                         </div>
                         <div class="indicator">
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
+                            <div class="circle circle1"></div>
+                            <div class="circle circle2"></div>
+                            <div class="circle circle3"></div>
+                            <div class="circle circle4"></div>
                         </div>
                     </div>
                 </div>
@@ -291,7 +292,7 @@
                         </div>
                         <div class="rectangle-photo">
                             <div class="rectangle-relative"></div>
-                            <div class="rectangle-blue">
+                            <div class="rectangle-blue" onclick="btnKonfirmasi()">
                                 <h3 class="font-avenue-dream">Konfirmasi
                                     <br>Kehadiran</h3>
                             </div>
@@ -312,7 +313,7 @@
                                 <img src="assets/img/kirim_hadiah.png" alt="kirim_hadiah">
                             </div>
                             <div class="rectangle-relative"></div>
-                            <div class="rectangle-blue">
+                            <div class="rectangle-blue" onclick="btnKirim()">
                                 <h3 class="font-avenue-dream">Kirim
                                     <br>Hadiah</h3>
                             </div>

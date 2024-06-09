@@ -57,3 +57,31 @@ function updateclock(remainingTime) {
 function Number(number) {
     return number < 10 ? "0" + number : number;
 }
+
+const popupScreen = document.querySelector(".popup");
+const popupKonfirmasi = document.querySelector(".popup-konfirmasi");
+const popupKirim = document.querySelector(".popup-kirim");
+
+function btnKonfirmasi() {
+    console.log("berhasil masuk overlay");
+    popupScreen.style.display = "flex";
+    popupKonfirmasi.style.display = "block";
+    popupKirim.style.display = "none";
+    start();
+}
+
+function btnKirim() {
+    console.log("berhasil masuk overlay");
+    popupScreen.style.display = "flex";
+    popupKirim.style.display = "block";
+    popupKonfirmasi.style.display = "none";
+    start();
+}
+
+function btnExit() {
+    console.log("berhasil masuk overlay");
+    popupScreen.style.display = "none";
+    popupKonfirmasi.style.display = "none";
+    popupKirim.style.display = "none";
+    start();
+}
