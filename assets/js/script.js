@@ -63,7 +63,7 @@ const popupKonfirmasi = document.querySelector(".popup-konfirmasi");
 const popupKirim = document.querySelector(".popup-kirim");
 
 function btnKonfirmasi() {
-    console.log("berhasil masuk overlay");
+    console.log("berhasil masuk konfirmasi popup");
     popupScreen.style.display = "flex";
     popupKonfirmasi.style.display = "block";
     popupKirim.style.display = "none";
@@ -71,7 +71,7 @@ function btnKonfirmasi() {
 }
 
 function btnKirim() {
-    console.log("berhasil masuk overlay");
+    console.log("berhasil masuk kirim popup");
     popupScreen.style.display = "flex";
     popupKirim.style.display = "block";
     popupKonfirmasi.style.display = "none";
@@ -79,9 +79,30 @@ function btnKirim() {
 }
 
 function btnExit() {
-    console.log("berhasil masuk overlay");
+    console.log("berhasil keluar popup");
     popupScreen.style.display = "none";
     popupKonfirmasi.style.display = "none";
     popupKirim.style.display = "none";
     start();
+}
+
+const musicPlay = document.querySelector(".music-on");
+const musicStop = document.querySelector(".music-mute");
+const musicAuto = document.querySelector("#musik");
+
+musicAuto.play();
+musicAuto.loop = true;
+
+function musicMute() {
+    musik.muted = true;
+    console.log("berhasil mute music");
+    musicPlay.style.display = "none";
+    musicStop.style.display = "flex";
+}
+
+function musicOn() {
+    musik.muted = false;
+    console.log("berhasil play music");
+    musicStop.style.display = "none";
+    musicPlay.style.display = "flex";
 }

@@ -117,6 +117,38 @@ container{
     width: 20px;
 }
 
+.music{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: linear-gradient(88.89deg, #396793 26.37%, #809ab3 51.89%, #396793 76.91%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.music div.music-mute, .music div.music-on{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.music img{
+    width: 100%;
+}
+
+.music div.music-mute{
+    display: none;
+}
+
 .scrolled-content{
     width: 30%;
     position: absolute;
