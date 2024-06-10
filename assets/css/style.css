@@ -905,7 +905,7 @@ container{
 
 .thumbnail{
 	object-fit: cover;
-	width: 80px;
+	width: 70px;
 	cursor: pointer;
 	opacity: 0.8;
 	margin: 0 5px 10px 0;
