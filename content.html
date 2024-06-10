@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <title>Rayfan & Clarissa</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />    <title>Rayfan & Clarissa</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -318,68 +318,25 @@
                 <h2 class="font-avenue-dream">the Frames of 
                     <br>Our Moment and Memories
                 </h2>
-                <div class="product-imgs">
-                    <div class = "img-display">
-                      <div class = "img-showcase">
-                        <img src = "assets/img/moment1.png" alt = "moment1">
-                        <img src = "assets/img/moment2.png" alt = "moment2">
-                        <img src = "assets/img/moment3.png" alt = "moment3">
-                        <img src = "assets/img/moment4.png" alt = "moment4">
-                        <img src = "assets/img/moment5.png" alt = "moment5">
-                        <img src = "assets/img/moment6.png" alt = "moment6">
-                      </div>
-                    </div>
-                    <div class="img-select-container">
-                        <div class = "img-select">
-                            <div class = "img-item">
-                                <a href = "#" data-id = "1">
-                                    <img src = "assets/img/moment1.png" alt = "moment1">
-                                </a>
+                <div id="content-wrapper">
+                    <img id=featured src = "assets/img/moment1.png" alt = "moment1">
+                        <div id="slide-wrapper" >
+                            <div class="arrow-left">
+                                <img id="slideLeft" class="arrow" src="assets/icons/arrow.png">
                             </div>
-                            <div class = "img-item">
-                                <a href = "#" data-id = "2">
-                                    <img src = "assets/img/moment2.png" alt = "moment2">
-                                </a>
+                            <div id="slider">
+                                <img class="thumbnail active" src="assets/img/moment1.png">
+                                <img class="thumbnail" src="assets/img/moment2.png">
+                                <img class="thumbnail" src="assets/img/moment3.png">
+                                <img class="thumbnail" src="assets/img/moment4.png">
+                                <img class="thumbnail" src="assets/img/moment5.png">
+                                <img class="thumbnail" src="assets/img/moment6.png">
+                                <img class="thumbnail" src="assets/img/moment2.png">
                             </div>
-                            <div class = "img-item">
-                                <a href = "#" data-id = "3">
-                                    <img src = "assets/img/moment3.png" alt = "moment3">
-                                </a>
-                            </div>
-                            <div class = "img-item">
-                                <a href = "#" data-id = "4">
-                                    <img src = "assets/img/moment4.png" alt = "moment4">
-                                </a>
-                            </div>
-                            <div class = "img-item">
-                                <a href = "#" data-id = "5">
-                                    <img src = "assets/img/moment5.png" alt = "moment5">
-                                </a>
-                            </div>
-                            <div class = "img-item">
-                                <a href = "#" data-id = "6">
-                                    <img src = "assets/img/moment6.png" alt = "moment6">
-                                </a>
+                            <div class="arrow-right">
+                                <img id="slideRight" class="arrow" src="assets/icons/arrow.png">
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="slide-gallery">
-                    <h3 class="font-avenue-dream">More moments</h3>
-                    <div class="line"></div>
-                    <div class="left-right">
-                        <a href="#" data-id = "-1">
-                            <div class="slide-left">
-                                <img src="assets/icons/arrow.png" alt="arrow">
-                            </div>
-                        </a>
-                        <div class="space"></div>
-                        <a href="#" data-id = "+1">
-                            <div class="slide-right">
-                                <img src="assets/icons/arrow.png" alt="arrow">
-                            </div>
-                        </a>
-                    </div>
                 </div>
             </section>
             <section class="section10 font-color-white">
@@ -505,7 +462,7 @@
         ScrollReveal().reveal('.section6-transition, .section6 .savethedate, .section6 p', { reset: false, delay: 50, origin:'bottom' });
         ScrollReveal().reveal('.section7 h2.our-love-journey, .section7 .bird, .section7 .photo, .section7 .slider-text, .section7 .slider-text2, .section7 .stars', { reset: false, delay: 50, origin:'bottom' });
         ScrollReveal().reveal('.section8 h2', { reset: false, delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section9 .love-ornaments, .section9 h2, .section9 .product-imgs, .section9 .slide-gallery', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section9 .love-ornaments, .section9 h2, .section9 #content-wrapper', { reset: false, delay: 50, origin:'bottom' });
         ScrollReveal().reveal('.section10 .konfirmasi, .section10 .kirim, .section10 h2, .section10 .wish, .section10 .form-ucapan', { reset: false, delay: 50, origin:'bottom' });
         ScrollReveal().reveal('.section11 p, .section11 h6, .section11 p', { reset: false, delay: 50, origin:'bottom' });
         ScrollReveal().reveal('.copyright p', { reset: false, delay: 50, origin:'bottom' });
