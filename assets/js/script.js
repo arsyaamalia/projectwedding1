@@ -90,7 +90,7 @@ const musicPlay = document.querySelector("#music-on");
 const musicStop = document.querySelector("#music-mute");
 const musicAuto = document.querySelector("#musik");
 
-// musicAuto.play();
+musicAuto.play();
 musicAuto.loop = true;
 
 function musicMute(event) {
