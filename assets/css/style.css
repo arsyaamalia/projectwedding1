@@ -230,9 +230,9 @@ container{
 }
 
 .music{
-    position: absolute;
+    position: fixed;
     left: 20px;
-    bottom: 30px;
+    bottom: 20px;
     width: 60px;
     height: 60px;
     border-radius: 100%;
@@ -243,6 +243,7 @@ container{
     align-items: center;
     text-align: center;
     cursor: pointer;
+    z-index: 999;
 }
 
 .music a#music-mute, .music a#music-on{
@@ -1542,5 +1543,10 @@ container{
 
     .wrapper2{
         display: flex;
+    }
+
+    .music{
+        top: 20px;
+        bottom: auto;
     }
 }
