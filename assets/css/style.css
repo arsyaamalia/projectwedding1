@@ -162,7 +162,7 @@ container{
     display: flex;
     flex-direction: row;
     background-color: #396793;
-    height: 60px;
+    height: 55px;
     border-radius: 50px;
     padding: 5px;
     position: fixed;
@@ -727,19 +727,19 @@ container{
 
 .slider-text{
     overflow: hidden;
-    width: 100px;
+    width: 120px;
     margin-left: -145px;
 }
 
 @keyframes text_animation{
     0% {left:0px;}
     10% {left:0px;}
-    20% {left:100px;}
-    30% {left:100px;}
-    40% {left: 200px;}
-    50% {left: 200px;}
-    60% {left: 100px;}
-    70% {left: 100px;}
+    20% {left:120px;}
+    30% {left:120px;}
+    40% {left: 240px;}
+    50% {left: 240px;}
+    60% {left: 120px;}
+    70% {left: 120px;}
     80% {left: 0px;}
     90% {left: 0px;}
     100% {left:0px;}
@@ -748,20 +748,20 @@ container{
 @-webkit-keyframes text_animation{
     0% {left:0px;}
     10% {left:0px;}
-    20% {left:100px;}
-    30% {left:100px;}
-    40% {left: 200px;}
-    50% {left: 200px;}
-    60% {left: 100px;}
-    70% {left: 100px;}
+    20% {left:120px;}
+    30% {left:120px;}
+    40% {left: 240px;}
+    50% {left: 240px;}
+    60% {left: 120px;}
+    70% {left: 120px;}
     80% {left: 0px;}
     90% {left: 0px;}
     100% {left:0px;}
 }
 
 .slide-texts{
-    width: 300px;
-    margin: 0 0 0 -200px;
+    width: 360px;
+    margin: 0 0 0 -240px;
     position: relative;
     -webkit-animation-name: text_animation;
     animation-name: text_animation;
@@ -776,25 +776,25 @@ container{
 }
 
 .text-container{
-    width: 100px;
+    width: 120px;
     position: relative;
     float: left;
 }
 
 .slider-text2{
     overflow: hidden;
-    width: 135px;
+    width: 140px;
 }
 
 @keyframes text_animation2{
     0% {left:0px;}
     10% {left:0px;}
-    20% {left:135px;}
-    30% {left:135px;}
-    40% {left: 270px;}
-    50% {left: 270px;}
-    60% {left: 135px;}
-    70% {left: 135px;}
+    20% {left:140px;}
+    30% {left:140px;}
+    40% {left: 280px;}
+    50% {left: 280px;}
+    60% {left: 140px;}
+    70% {left: 140px;}
     80% {left: 0px;}
     90% {left: 0px;}
     100% {left:0px;}
@@ -803,20 +803,20 @@ container{
 @-webkit-keyframes text_animation2{
     0% {left:0px;}
     10% {left:0px;}
-    20% {left:135px;}
-    30% {left:135px;}
-    40% {left: 270px;}
-    50% {left: 270px;}
-    60% {left: 135px;}
-    70% {left: 135px;}
+    20% {left:140px;}
+    30% {left:140px;}
+    40% {left: 280px;}
+    50% {left: 280px;}
+    60% {left: 140px;}
+    70% {left: 140px;}
     80% {left: 0px;}
     90% {left: 0px;}
     100% {left:0px;}
 }
 
 .slide-texts2{
-    width: 405px;
-    margin: 0 0 0 -270px;
+    width: 420px;
+    margin: 0 0 0 -280px;
     position: relative;
     -webkit-animation-name: text_animation2;
     animation-name: text_animation2;
@@ -831,7 +831,7 @@ container{
 }
 
 .text-container2{
-    width: 135px;
+    width: 140px;
     position: relative;
     float: left;
 }
