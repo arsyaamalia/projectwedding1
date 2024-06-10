@@ -86,20 +86,22 @@ function btnExit() {
     start();
 }
 
-const musicPlay = document.querySelector(".music-on");
-const musicStop = document.querySelector(".music-mute");
+const musicPlay = document.querySelector("#music-on");
+const musicStop = document.querySelector("#music-mute");
 const musicAuto = document.querySelector("#musik");
 
-// musicAuto.play();
+musicAuto.play();
 musicAuto.loop = true;
 
-function musicMute() {
+function musicMute(event) {
+    event.preventDefault();
     musik.muted = true;
     musicPlay.style.display = "none";
     musicStop.style.display = "flex";
 }
 
-function musicOn() {
+function musicOn(event) {
+    event.preventDefault();
     musik.muted = false;
     musicStop.style.display = "none";
     musicPlay.style.display = "flex";

@@ -24,12 +24,10 @@
                     <div><button type="button" class="wishes"><img src="assets/icons/wishes.png" alt="wishes"></button></div>
                 </div>
             </div>
-            <a href="#">
-                <div class="music">
-                    <div class="music-on" onclick="musicMute()"><img src="assets/icons/music.png" alt="music"></div>
-                    <div class="music-mute" onclick="musicOn()"><img src="assets/icons/music-mute.png" alt="music"></div>
-                </div>
-            </a>
+            <div class="music">
+                <a id="music-on" href="#" onclick="musicMute(event)"><img src="assets/icons/music.png" alt="music"></a>
+                <a id="music-mute" href="#" onclick="musicOn(event)"><img src="assets/icons/music-mute.png" alt="music"></a>
+            </div>
             <h1 class="font-avenue-dream font-color-white">Rayfan & Clarissa</h1>
         </div>
         <div class="scrolled-content">
@@ -445,17 +443,17 @@
         });
 
         ScrollReveal().reveal('h1', { reset: false, delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section2 h2, .section2 p', { delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section3 img, .section3 h2, .section3 p', { delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section4 p, .section4 img.groom-vector, .section4 img.bride-vector, .groom, .bride', { delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section5 .countdown, .section5 h2, .section5 p', { delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section6-transition, .section6 .savethedate, .section6 p', { delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section7 h2.our-love-journey, .section7 .bird, .section7 .photo, .section7 .slider-text, .section7 .slider-text2, .section7 .stars', { delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section8 h2', { delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section9 .love-ornaments, .section9 h2, .section9 .product-imgs, .section9 .slide-gallery', { delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section10 .konfirmasi, .section10 .kirim, .section10 h2, .section10 .wish, .section10 .form-ucapan', { delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.section11 p, .section11 h6, .section11 p', { delay: 50, origin:'bottom' });
-        ScrollReveal().reveal('.copyright p', { delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section2 h2, .section2 p', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section3 img, .section3 h2, .section3 p', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section4 p, .section4 img.groom-vector, .section4 img.bride-vector, .groom, .bride', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section5 .countdown, .section5 h2, .section5 p', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section6-transition, .section6 .savethedate, .section6 p', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section7 h2.our-love-journey, .section7 .bird, .section7 .photo, .section7 .slider-text, .section7 .slider-text2, .section7 .stars', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section8 h2', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section9 .love-ornaments, .section9 h2, .section9 .product-imgs, .section9 .slide-gallery', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section10 .konfirmasi, .section10 .kirim, .section10 h2, .section10 .wish, .section10 .form-ucapan', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.section11 p, .section11 h6, .section11 p', { reset: false, delay: 50, origin:'bottom' });
+        ScrollReveal().reveal('.copyright p', { reset: false, delay: 50, origin:'bottom' });
     </script>
 </body>
 </html>

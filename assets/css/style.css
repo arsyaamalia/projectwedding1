@@ -133,7 +133,7 @@ container{
     cursor: pointer;
 }
 
-.music div.music-mute, .music div.music-on{
+.music a#music-mute, .music a#music-on{
     width: 50%;
     display: flex;
     justify-content: center;
@@ -145,7 +145,7 @@ container{
     width: 100%;
 }
 
-.music div.music-mute{
+.music a#music-mute{
     display: none;
 }
 
